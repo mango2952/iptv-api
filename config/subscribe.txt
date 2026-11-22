@@ -2,7 +2,7 @@
 # 支持设置UA：https://xxx.com/subscribe.m3u UA="xxx"
 # This is a list of subscription sources, with one subscription address per line
 # Supports setting UA: https://xxx.com/subscribe.m3u UA="xxx"
-# 2026-11-22 LD 源名单 v6（只留英语国家表 uk/us/ca/au/in + 分类表）：v2全集去掉IPv6专用源（用户看不了IPv6）；辽宁源 pro0x400gg/IPTV 放白名单不测速（辽宁本地源，GitHub海外测不准，家里直连可用）
+# 2026-11-22 LD 源名单 v7（新闻综合英语为主 uk/us/ca/au/in；体育不限语言，恢复 fr/de/es/it 国家表）：v2全集去掉IPv6专用源（用户看不了IPv6）；辽宁源 pro0x400gg/IPTV 放白名单不测速（辽宁本地源，GitHub海外测不准，家里直连可用）
 https://live.zbds.top/tv/iptv4.m3u
 https://iptv-org.github.io/iptv/index.m3u
 https://iptv-org.github.io/iptv/categories/sports.m3u
@@ -49,6 +49,10 @@ https://iptv-org.github.io/iptv/countries/us.m3u
 https://iptv-org.github.io/iptv/countries/au.m3u
 https://iptv-org.github.io/iptv/countries/ca.m3u
 https://iptv-org.github.io/iptv/countries/in.m3u
+https://iptv-org.github.io/iptv/countries/fr.m3u
+https://iptv-org.github.io/iptv/countries/de.m3u
+https://iptv-org.github.io/iptv/countries/es.m3u
+https://iptv-org.github.io/iptv/countries/it.m3u
 [WHITELIST]
 # 以下是订阅源的白名单，白名单内的订阅源获取的接口将不会参与测速，始终保留至结果最前。
 # This is the whitelist for subscription sources. Subscription sources in the whitelist will not participate in speed testing and will always be retained at the front of the results.
