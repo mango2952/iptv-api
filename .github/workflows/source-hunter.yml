@@ -32,7 +32,8 @@ jobs:
           git commit -m "sources: daily auto-hunt added new playlists"
           git push
       - name: Trigger playlist generation
-        if: steps.hunt.outputs.added != '0'
+        # Always regenerate daily: existing sources update their streams daily too,
+        # even when no brand-new source was found.
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: gh workflow run main.yml --ref master
