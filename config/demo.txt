@@ -160,7 +160,6 @@ NBC News NOW
 TRT World
 WION
 CNA
-Arirang TV
 NDTV 24x7
 
 🏟️国际体育,#genre#
@@ -190,12 +189,9 @@ NFL Network
 MLB Network
 NHL Network
 DAZN 1
-Canal+ Sport
-RMC Sport 1
 TSN 1
 TSN 2
 Sportsnet
-Movistar Deportes
 Red Bull TV
 Motorvision TV
 Fuel TV
@@ -212,7 +208,6 @@ ABC
 CBS
 FOX
 The CW
-KBS World
 HBO
 AMC
 FX
