@@ -193,6 +193,13 @@ TSN 1
 TSN 2
 Sportsnet
 Red Bull TV
+Canal+ Sport
+RMC Sport 1
+RMC Sport 2
+Movistar Deportes
+Sky Sport Tennis
+Sportdigital
+Ziggo Sport
 Motorvision TV
 Fuel TV
 
