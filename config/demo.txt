@@ -77,3 +77,66 @@ CETV-4
 汕头文旅
 茂名综合
 茂名公共
+
+🌏港澳台频道,#genre#
+凤凰中文
+凤凰资讯
+凤凰香港
+翡翠台
+明珠台
+无线新闻台
+澳视澳门
+澳门体育
+民视
+中视
+华视
+公视
+东森新闻
+TVBS新闻
+
+🏀体育频道,#genre#
+五星体育
+劲爆体育
+Eurosport 1
+Eurosport 2
+Tennis Channel
+beIN Sports
+ESPN
+NBA TV
+纬来体育
+爱尔达体育
+
+📰国际新闻,#genre#
+CGTN
+CGTN纪录
+BBC World News
+CNN
+NHK World
+RT
+Fox News
+Sky News
+France 24
+Al Jazeera
+
+🧸少儿动画,#genre#
+卡酷少儿
+金鹰卡通
+嘉佳卡通
+优漫卡通
+Cartoon Network
+
+🎬影视纪录,#genre#
+CHC家庭影院
+CHC动作电影
+东方电影
+纪实人文
+求索纪录
+
+🏠辽宁地方,#genre#
+辽宁都市
+辽宁体育
+辽宁北方
+沈阳新闻
+沈阳经济
+大连新闻
+大连体育
