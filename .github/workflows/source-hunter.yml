@@ -1,0 +1,38 @@
+name: Daily source hunter
+
+on:
+  schedule:
+    # 05:30 Asia/Shanghai = 21:30 UTC previous day
+    - cron: "30 21 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  actions: write
+
+jobs:
+  hunt:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Hunt new sources
+        id: hunt
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python tools/find_sources.py
+      - name: Commit new sources
+        if: steps.hunt.outputs.added != '0'
+        run: |
+          git config user.name "source-hunter"
+          git config user.email "actions@github.com"
+          git add config/subscribe.txt
+          git commit -m "sources: daily auto-hunt added new playlists"
+          git push
+      - name: Trigger playlist generation
+        if: steps.hunt.outputs.added != '0'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: gh workflow run main.yml --ref master
