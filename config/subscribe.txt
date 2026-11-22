@@ -2,21 +2,16 @@
 # 支持设置UA：https://xxx.com/subscribe.m3u UA="xxx"
 # This is a list of subscription sources, with one subscription address per line
 # Supports setting UA: https://xxx.com/subscribe.m3u UA="xxx"
-# 2026-11-22 LD 源名单 v2：第一轮6个 + 各公开仓库README公布的playlist，去重后的全集；死的由Guovin测速自动剔除
+# 2026-11-22 LD 源名单 v3：v2全集去掉IPv6专用源（用户看不了IPv6）；辽宁源 pro0x400gg/IPTV 放白名单不测速（辽宁本地源，GitHub海外测不准，家里直连可用）
 https://live.zbds.top/tv/iptv4.m3u
-https://live.zbds.top/tv/iptv6.m3u
-https://live.fanmingming.com/tv/m3u/ipv6.m3u
-https://raw.githubusercontent.com/fanmingming/live/main/tv/m3u/ipv6.m3u
 https://iptv-org.github.io/iptv/index.m3u
 https://iptv-org.github.io/iptv/categories/sports.m3u
 https://iptv-org.github.io/iptv/languages/zho.m3u
 https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/ipv4/result.m3u
-https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/ipv6/result.m3u
 https://raw.githubusercontent.com/Free-TV/IPTV/master/playlist.m3u8
 https://raw.githubusercontent.com/zilong7728/Collect-IPTV/refs/heads/main/best_sorted.m3u
 https://raw.githubusercontent.com/hujingguang/ChinaIPTV/main/cnTV_AutoUpdate.m3u8
 https://raw.githubusercontent.com/suxuang/myIPTV/refs/heads/main/ipv4.m3u
-https://raw.githubusercontent.com/suxuang/myIPTV/refs/heads/main/ipv6.m3u
 https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/live.m3u
 https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/live_lite.m3u
 https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/live_platforms.m3u
@@ -34,7 +29,6 @@ https://raw.githubusercontent.com/joevess/IPTV/main/home.m3u8
 https://epg.pw/test_channels.m3u
 https://epg.pw/test_channels_hong_kong.m3u
 https://epg.pw/test_channels_macau.m3u
-https://m3u.ibert.me/fmml_ipv6.m3u
 https://cdn.jsdelivr.net/gh/alantang1977/iptv_api@master/output/live_ipv4.m3u
 https://aktv.space/live.m3u
 https://iptv.228088.xyz/cn.m3u
@@ -42,3 +36,4 @@ https://iptv.228088.xyz/cn.m3u
 [WHITELIST]
 # 以下是订阅源的白名单，白名单内的订阅源获取的接口将不会参与测速，始终保留至结果最前。
 # This is the whitelist for subscription sources. Subscription sources in the whitelist will not participate in speed testing and will always be retained at the front of the results.
+https://raw.githubusercontent.com/pro0x400gg/IPTV/main/IPTV.m3u
