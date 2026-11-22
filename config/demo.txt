@@ -140,3 +140,86 @@ CHC动作电影
 沈阳经济
 大连新闻
 大连体育
+
+🌍国际新闻,#genre#
+BBC News
+BBC World News
+CNN International
+Sky News
+Al Jazeera English
+France 24 English
+DW English
+Euronews English
+NHK World Japan
+Bloomberg TV
+CNBC
+MSNBC
+ABC News
+CBS News
+NBC News NOW
+TRT World
+WION
+CNA
+Arirang TV
+NDTV 24x7
+
+🏟️国际体育,#genre#
+Sky Sports Main Event
+Sky Sports Premier League
+Sky Sports Football
+Sky Sports F1
+Sky Sports Tennis
+Sky Sports Golf
+Sky Sports Cricket
+Sky Sports News
+Sky Sports Arena
+Sky Sports Action
+TNT Sports 1
+TNT Sports 2
+TNT Sports 3
+TNT Sports 4
+beIN Sports 1
+beIN Sports 2
+beIN Sports 3
+beIN Sports English
+beIN Sports Xtra
+ESPN 2
+Fox Sports 1
+Golf Channel
+NFL Network
+MLB Network
+NHL Network
+DAZN 1
+Canal+ Sport
+RMC Sport 1
+TSN 1
+TSN 2
+Sportsnet
+Movistar Deportes
+Red Bull TV
+Motorvision TV
+Fuel TV
+
+🎬国际综合,#genre#
+BBC One
+BBC Two
+BBC Four
+ITV 1
+Channel 4
+Channel 5
+NBC
+ABC
+CBS
+FOX
+The CW
+KBS World
+HBO
+AMC
+FX
+Paramount Network
+USA Network
+TNT
+Discovery Channel
+National Geographic
+History Channel
+Animal Planet
